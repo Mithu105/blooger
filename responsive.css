@@ -1,0 +1,101 @@
+/* --------------------------  Tablet  -------------------- */
+@media only screen and (max-width: 768px) {
+  .post .post-info {
+    left: 0%;
+    border-radius: 0;
+  }
+
+  .popular-post-info {
+    display: none;
+  }
+  .footer .form .email {
+    width: 60%;
+  }
+}
+/* --------------------------  Tablet -------------------- */
+
+/* --------------------------  Extra Large Mobile -------------------- */
+@media screen and (max-width: 480px) {
+  .post {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .popular-post-info {
+    display: block;
+  }
+  .insta-img .col-md-4 {
+    margin: 8px 15px;
+  }
+  .post-button {
+    text-align: center;
+  }
+  .sidebar {
+    margin-top: 50px;
+  }
+  .post .post-info {
+    padding: 10px 16px;
+    margin-top: -25px;
+  }
+}
+/* --------------------------  Extra Large Mobile -------------------- */
+
+/* --------------------------  Large Mobile -------------------- */
+@media screen and (max-width: 425px) {
+  .hero-title h3 {
+    line-height: 2rem;
+  }
+  .hero-title h1 {
+    letter-spacing: 0rem;
+    margin-top: 2rem;
+  }
+  .hero-btn {
+    margin-top: 3rem;
+  }
+}
+/* --------------------------  Large Mobile -------------------- */
+
+/* --------------------------  Medium Mobile -------------------- */
+@media screen and (max-width: 375px) {
+  .hero-title h3 {
+    line-height: 2.5rem;
+  }
+  .hero-title h1 {
+    letter-spacing: 0rem;
+    margin-top: 1rem;
+  }
+  .post .post-info {
+    width: 100%;
+  }
+}
+/* --------------------------  Medium Mobile -------------------- */
+
+/* --------------------------  Small Mobile -------------------- */
+@media screen and (max-width: 320px) {
+  .post .post-info,
+  .popular-post-info {
+    display: none;
+  }
+  .hero-title h3 {
+    line-height: 3rem;
+  }
+  .hero-title h1 {
+    letter-spacing: 0rem;
+    margin-top: 2rem;
+  }
+  .hero-btn {
+    margin-top: 4rem;
+  }
+  .hero {
+    height: 75vh;
+  }
+  .post-button {
+    text-align: center;
+  }
+  .sidebar {
+    margin-top: 50px;
+  }
+  .insta-img .col-md-4 {
+    margin: 8px 0;
+  }
+}
+/* --------------------------  Small Mobile -------------------- */

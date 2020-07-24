@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blooger Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- fontawesome & bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Animate on Scroll css -->
+    <link rel="stylesheet" href="./css/aos.css" />
+
+    <!-- owl carousel css  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- browser support -->
+    <link rel="stylesheet" href="./browser support/normalize.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+  </head>
+  <body>
+    <!----------------- header section ----------------->
+    <header id="Home">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">Blooger</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav m-auto mt-2 mt-lg-0 font-size-18">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Pages</a>
+            </li>
+            <l class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </l>
+          </ul>
+          <div class="social-icon">
+            <span class="px-2"
+              ><a href="#"><i class="fab fa-facebook-f"></i></a
+            ></span>
+            <span class="px-2"
+              ><a href="#"><i class="fab fa-twitter"></i></a
+            ></span>
+            <span class="px-2"
+              ><a href="#"><i class="fab fa-instagram"></i></a
+            ></span>
+            <span class="px-2"
+              ><a href="#"><i class="fab fa-youtube"></i></a
+            ></span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="hero">
+        <div class="hero-title text-white text-center">
+          <div data-aos="fade-up" data-aos-delay="500">
+            <h3>Tours & Travels</h3>
+            <h1>Amazing Place on Earth</h1>
+            <div class="hero-btn">
+             <a href="#">Explore</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section -->
+    </header>
+    <!----------------- header section ----------------->
+
+    <!----------------- owl carousel ----------------->
+    <section class="carousel py-5">
+      <div class="owl-carousel owl-theme">
+        <div class="item" data-aos="fade-right" data-aos-delay="100">
+          <img src="assets/img/Blog-post/post-1.jpg" alt="" />
+          <div class="blog-title text-center p-3">
+            <h3 class="mb-3">London Fashion week's continued the evolution</h3>
+            <button class="my-btn">Fashion</button>
+            <p class="mt-3">2 minutes</p>
+          </div>
+        </div>
+        <div class="item" data-aos="fade-in" data-aos-delay="100">
+          <img src="assets/img/Blog-post/post-2.jpg" alt="" />
+          <div class="blog-title text-center p-3">
+            <h3 class="mb-3">London Fashion week's continued the evolution</h3>
+                       <button class="my-btn">Fashion</button>
+            <p class="mt-3">2 minutes</p>
+          </div>
+        </div>
+        <div class="item" data-aos="fade-left" data-aos-delay="100">
+          <img src="assets/img/Blog-post/post-3.jpg" alt="" />
+          <div class="blog-title text-center p-3">
+            <h3 class="mb-3">London Fashion week's continued the evolution</h3>
+            <button class="my-btn">Fashion</button>
+            <p class="mt-3">2 minutes</p>
+          </div>
+        </div>
+        <div class="item" data-aos="fade-left" data-aos-delay="100">
+          <img src="assets/img/Blog-post/post-2.jpg" alt="" />
+          <div class="blog-title text-center p-3">
+            <h3 class="mb-3">London Fashion week's continued the evolution</h3>
+            <button class="my-btn">Fashion</button>
+            <p class="mt-3">2 minutes</p>
+          </div>
+        </div>
+      </div>
+      <div class="owl-navigation">
+        <span class="owl-nav-prev"
+          ><i class="fas fa-long-arrow-alt-left"></i
+        ></span>
+        <span class="owl-nav-next"
+          ><i class="fas fa-long-arrow-alt-right"></i
+        ></span>
+      </div>
+    </section>
+    <!----------------- owl carousel  ----------------->
+
+    <!----------------- Blog section  ----------------->
+    <section class="blog py-5" id="blog">
+      <div class="container">
+        <div class="post">
+          <div class="post-left">
+            <!-- post-one -->
+            <div class="post-one" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-img">
+                <img
+                  src="./assets/img/Blog-post/blog1.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="post-info text-black-50">
+                <span><i class="fas fa-user">&nbsp; Admin</i></span>
+                <span
+                  ><i class="fas fa-calendar-alt">&nbsp; June 30, 2020</i></span
+                >
+                <span>2 comments</span>
+              </div>
+              <div class="post-title">
+                <h3>
+                  <a href="#"
+                    >To know more about blog website visit this site!</a
+                  >
+                </h3>
+              </div>
+              <div class="post-text">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum iste modi ut velit earum facere laudantium nulla tempore
+                  reprehenderit repudiandae, perspiciatis fugiat at eum libero
+                  natus ipsum inventore vero neque enim animi vitae veritatis.
+                  Facere culpa minus ratione eius temporibus quia id et cumque
+                  modi deserunt, architecto saepe repudiandae . Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Odio voluptas
+                  est adipisci iste tempore minus sunt dignissimos, placeat
+                  velit. Id.
+                </p>
+              </div>
+              <div class="post-button mt-5">
+                <a class="post-btn "
+                  >Read more <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- post-two -->
+            <div class="post-two mt-5" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-img">
+                <img
+                  src="./assets/img/Blog-post/blog2.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="post-info text-black-50">
+                <span><i class="fas fa-user">&nbsp; Admin</i></span>
+                <span
+                  ><i class="fas fa-calendar-alt">&nbsp; June 30, 2020</i></span
+                >
+                <span>5 comments</span>
+              </div>
+              <div class="post-title">
+                <h3>
+                  <a href="#"
+                    >To know more about blog website visit this site!</a
+                  >
+                </h3>
+              </div>
+              <div class="post-text">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum iste modi ut velit earum facere laudantium nulla tempore
+                  reprehenderit repudiandae, perspiciatis fugiat at eum libero
+                  natus ipsum inventore vero neque enim animi vitae veritatis.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusamus ea, aliquid in quaerat reprehenderit beatae id
+                  voluptatibus unde inventore ad. Facere culpa minus ratione
+                  eius temporibus quia id et cumque modi deserunt, architecto
+                  saepe repudiandae .
+                </p>
+              </div>
+              <div class="post-button mt-5">
+                <a class="post-btn"
+                  >Read more <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- post three -->
+            <div
+              class="post-three mt-5"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="post-img">
+                <img
+                  src="./assets/img/Blog-post/blog3.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="post-info text-black-50">
+                <span><i class="fas fa-user">&nbsp; Admin</i></span>
+                <span
+                  ><i class="fas fa-calendar-alt">&nbsp; June 30, 2020</i></span
+                >
+                <span>8 comments</span>
+              </div>
+              <div class="post-title">
+                <h3>
+                  <a href="#"
+                    >To know more about blog website visit this site!</a
+                  >
+                </h3>
+              </div>
+              <div class="post-text">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum iste modi ut velit earum facere laudantium nulla tempore
+                  reprehenderit repudiandae, perspiciatis fugiat at eum libero
+                  natus ipsum inventore vero neque enim animi vitae veritatis.
+                  Facere culpa minus ratione eius temporibus quia id et cumque
+                  modi deserunt, architecto saepe repudiandae .
+                </p>
+              </div>
+              <div class="post-button mt-5">
+                <a class="post-btn"
+                  >Read more <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- post four  -->
+            <div class="post-four mt-5" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-img">
+                <img
+                  src="./assets/img/Blog-post/blog4.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="post-info text-black-50">
+                <span><i class="fas fa-user">&nbsp; Admin</i></span>
+                <span
+                  ><i class="fas fa-calendar-alt">&nbsp; June 30, 2020</i></span
+                >
+                <span>12 comments</span>
+              </div>
+              <div class="post-title">
+                <h3>
+                  <a href="#"
+                    >To know more about blog website visit this site!</a
+                  >
+                </h3>
+              </div>
+              <div class="post-text">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum iste modi ut velit earum facere laudantium nulla tempore
+                  reprehenderit repudiandae, perspiciatis fugiat at eum libero
+                  natus ipsum inventore vero neque enim animi vitae veritatis.
+                  Facere culpa minus ratione eius temporibus quia id et cumque
+                  modi deserunt, architecto saepe repudiandae .
+                </p>
+              </div>
+              <div class="post-button mt-5">
+                <a class="post-btn"
+                  >Read more <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="pagination">
+              <a href="#"><i class="fas fa-chevron-left"></i></a>
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <!-- Sidebar -->
+          <aside class="sidebar ml-4">
+            <h2>Category</h2>
+            <div class="category mt-5 ml-lg-5">
+              <ul>
+                <li data-aos="fade-left" data-aos-delay="100">
+                  <a href="#">Software <span>(05)</span></a>
+                </li>
+                <li data-aos="fade-left" data-aos-delay="200">
+                  <a href="#">Tech <span>(03)</span></a>
+                </li>
+                <li data-aos="fade-left" data-aos-delay="300">
+                  <a href="#">Lifestyle <span>(08)</span></a>
+                </li>
+                <li data-aos="fade-left" data-aos-delay="400">
+                  <a href="#">Shopping <span>(15)</span></a>
+                </li>
+                <li data-aos="fade-left" data-aos-delay="500">
+                  <a href="#">Food <span>(01)</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="popular-post">
+              <h2>Popular Post</h2>
+              <div
+                class="popular-post-1"
+                data-aos="flip-up"
+                data-aos-delay="200"
+              >
+                <div class="post-one mt-5">
+                  <div class="post-img">
+                    <img
+                      src="./assets/img/popular-post/m-blog-1.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="popular-post-info text-black-50">
+                    <span
+                      ><i class="fas fa-calendar-alt"
+                        >&nbsp; June 30, 2020</i
+                      ></span
+                    >
+                    <span>&nbsp; 2 comments</span>
+                  </div>
+                  <div class="post-title">
+                    <h4>
+                      <a href="#"
+                        >New data recording system to better analysis</a
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="popular-post-1"
+                data-aos="flip-up"
+                data-aos-delay="300"
+              >
+                <div class="post-one mt-5">
+                  <div class="post-img">
+                    <img
+                      src="./assets/img/popular-post/m-blog-2.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="popular-post-info text-black-50">
+                    <span
+                      ><i class="fas fa-calendar-alt"
+                        >&nbsp; June 30, 2020</i
+                      ></span
+                    >
+                    <span>&nbsp; 2 comments</span>
+                  </div>
+                  <div class="post-title">
+                    <h4>
+                      <a href="#"
+                        >New data recording system to better analysis</a
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="popular-post-1"
+                data-aos="flip-up"
+                data-aos-delay="400"
+              >
+                <div class="post-one mt-5">
+                  <div class="post-img">
+                    <img
+                      src="./assets/img/popular-post/m-blog-3.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="popular-post-info text-black-50">
+                    <span
+                      ><i class="fas fa-calendar-alt"
+                        >&nbsp; June 30, 2020</i
+                      ></span
+                    >
+                    <span>&nbsp; 2 comments</span>
+                  </div>
+                  <div class="post-title">
+                    <h4>
+                      <a href="#"
+                        >New data recording system to better analysis</a
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="popular-post-1"
+                data-aos="flip-up"
+                data-aos-delay="500"
+              >
+                <div class="post-one mt-5">
+                  <div class="post-img">
+                    <img
+                      src="./assets/img/popular-post/m-blog-4.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="popular-post-info text-black-50">
+                    <span
+                      ><i class="fas fa-calendar-alt"
+                        >&nbsp; June 30, 2020</i
+                      ></span
+                    >
+                    <span>&nbsp; 2 comments</span>
+                  </div>
+                  <div class="post-title">
+                    <h4>
+                      <a href="#"
+                        >New data recording system to better analysis</a
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="popular-post-1"
+                data-aos="flip-up"
+                data-aos-delay="6 00"
+              >
+                <div class="post-one mt-5">
+                  <div class="post-img">
+                    <img
+                      src="./assets/img/popular-post/m-blog-5.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="popular-post-info text-black-50">
+                    <span
+                      ><i class="fas fa-calendar-alt"
+                        >&nbsp; June 30, 2020</i
+                      ></span
+                    >
+                    <span>&nbsp; 2 comments</span>
+                  </div>
+                  <div class="post-title">
+                    <h4>
+                      <a href="#"
+                        >New data recording system to better analysis</a
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+              <h2>Newsletter</h2>
+              <div class="form-element">
+                <input type="email" placeholder="Email" />
+                <input type="submit" value="Subscribe" />
+              </div>
+            </div>
+            <div class="popular-tags">
+              <h2>Popular Tags</h2>
+              <div class="tag-list mt-4">
+                <span data-aos="flip-up" data-aos-delay="100">Software</span>
+                <span data-aos="flip-up" data-aos-delay="200">Tech</span>
+                <span data-aos="flip-up" data-aos-delay="300">Computer</span>
+                <span data-aos="flip-up" data-aos-delay="400">Shopping</span>
+                <span data-aos="flip-up" data-aos-delay="500">Travelling</span>
+                <span data-aos="flip-up" data-aos-delay="600">Technology</span>
+                <span data-aos="flip-up" data-aos-delay="700">Lifestyle</span>
+                <span data-aos="flip-up" data-aos-delay="800">Tech</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <!----------------- Blog section  ----------------->
+
+    <!----------------- Footer ----------------->
+    <footer class="footer mt-5 bg-dark">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-3 ">
+            <div class="about mt-5" data-aos="fade-right" data-aos-delay="200">
+              <h2>About us</h2>
+              <p class="mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat est, doloribus perspiciatis quibusdam, aliquam enim a
+                neque quasi accusamus assumenda quaerat ducimus velit .
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="news-letter mt-5" data-aos="fade-right" data-aos-delay="200">
+              <h2>Newsletter</h2>
+              <p class="mt-5">Stay with us</p>
+              <div class="form">
+                <input type="email" placeholder="Email" class="email"/>
+                <span>
+                <i class="fas fa-arrow-right "></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="instagram mt-5" data-aos="fade-left" data-aos-delay="200">
+              <h2>Instagram</h2>
+              <div class="insta-img float-left mt-5">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img
+                        src="./assets/img/instagram/thumb-card3.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#"
+                      ><img
+                        src="./assets/img/instagram/thumb-card4.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img
+                        src="./assets/img/instagram/thumb-card5.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img
+                        src="./assets/img/instagram/thumb-card6.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#"
+                      ><img
+                        src="./assets/img/instagram/thumb-card4.png"
+                        alt=""
+                        class="img-fluid"
+                                    /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img
+                        src="./assets/img/instagram/thumb-card6.png"
+                        alt=""
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="follow mt-5" data-aos="fade-left" data-aos-delay="200">
+              <h2>Follow us</h2>
+              <p class="mt-5">Let us be Social</p>
+              <div class="social-icon">
+                <span
+                  ><a href="#"><i class="fab fa-facebook-f"></i></a
+                ></span>
+                <span
+                  ><a href="#"><i class="fab fa-twitter"></i></a
+                ></span>
+                <span
+                  ><a href="#"><i class="fab fa-instagram"></i></a
+                ></span>
+                <span
+                  ><a href="#"><i class="fab fa-youtube"></i></a
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center py-3">
+        <p>
+          Copyright @2020 All rights reserved | made by
+          <a href="#">Mithu</a>
+        </p>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
+    </footer>
+    <!----------------- Footer ----------------->
+
+    <!--================  Javascript file  ==============-->
+
+    <!-- first jquery then popper -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- browser support -->
+    <script src="./browser support/html5shiv.min.js"></script>
+    <script src="./browser support/respond.min.js"></script>
+    <script src="./browser support/selectivizr.js"></script>
+
+    <!-- custom js -->
+    <script src="main.js"></script>
+  </body>
+</html>

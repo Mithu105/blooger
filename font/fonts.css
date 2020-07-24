@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'lora-bold';
+    src: url(./Lora/Lora-Bold.ttf);
+}
+@font-face{
+    font-family: 'lora-regular';
+    src: url(./Lora/Lora-Regular.ttf);
+}
+@font-face{
+    font-family: 'merriweather-regular';
+    src: url(./Merriweather/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: 'merriweather- light';
+    src: url(./Merriweather/Merriweather-Light.ttf);
+}
+@font-face{
+    font-family: 'merriweather-bold';
+    src: url(./Merriweather/Merriweather-Bold.ttf);
+}
