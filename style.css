@@ -93,36 +93,48 @@ li {
 }
 /* ===== REUSABLE COMPONENT ===== */
 /* ========= header section ========= */
+.navbar {
+  background-color: rgb(155, 215, 255);
+}
 .navbar-brand {
   font-family: var(--merri-bold);
   font-size: 3.8rem;
 }
 nav .nav-link {
   color: #000 !important;
+  font-weight: 500;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
 }
 nav .nav-item :hover {
-  color: red !important;
+  color: blue !important;
 }
-.social-icon a {
-  color: #000;
+.social-icon a,
+.social-icon span a i {
+  color: #000 !important;
   font-size: 2rem;
 }
-.social-icon a:hover {
-  color: blue;
+.social-icon a:hover,
+.social-icon span a i:hover {
+  color: yellow !important;
 }
 /* hero section */
 .hero {
-  background: url(./assets/img/Background-image.png);
+  background-image: linear-gradient(rgba(4, 4, 255, 0.5), rgba(4, 4, 255, 0.5)),
+    url(./assets/img/pic/pic1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   position: relative;
 }
+
 .hero-title {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  color: #222 !important;
 }
 .hero-title h3 {
   line-height: 1.4rem;
@@ -133,7 +145,7 @@ nav .nav-item :hover {
 .hero-btn {
   margin-top: 6rem;
 }
-.hero-btn a{
+.hero-btn a {
   color: #fff;
   border: 1px solid #fff;
   padding: 15px 50px;
@@ -141,17 +153,17 @@ nav .nav-item :hover {
   text-transform: uppercase;
   border-radius: 5rem;
 }
-.hero-btn:hover a{
+.hero-btn:hover a {
   color: #000;
-  background: var(--btn-color);
+  background: rgb(155, 215, 255);
 
-  border: 1px solid rgb(51, 85, 85);
-  transition: all 1.5s ease-out;
+  border: 1px solid rgb(155, 215, 255);
+  transition: all 0.5s ease-out;
 }
 /* ========= header section ========= */
 /* ========= owl carousel ========= */
 .carousel {
-  background: url(assets/img/Abract01.png);
+  /* background: url(assets/img/Abract01.png); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: right;
@@ -185,12 +197,17 @@ nav .nav-item :hover {
 }
 .post-img {
   overflow: hidden;
+  height: 375px;
+}
+.popular-post .post-img {
+  height: 165px;
 }
 .post-img img {
   position: relative;
   -webkit-transition: all 1.5s ease;
   transition: all 1.5s ease;
   width: 100%;
+  height: 100%;
 }
 .post-img img:hover {
   -webkit-transform: scale(1.2);
@@ -234,10 +251,12 @@ nav .nav-item :hover {
   border-radius: 50px;
   border: 3px solid#a6c1ee;
   font-size: 18px;
+  color: #333;
 }
 .post-btn:hover {
   background: transparent;
   border: 3px solid#fbc2eb;
+  cursor: pointer;
 }
 .fa-arrow-right {
   margin-left: 4px;
@@ -360,6 +379,8 @@ nav .nav-item :hover {
 }
 .footer {
   position: relative;
+  color: #000;
+  background: rgb(155, 215, 255);
 }
 .footer .form .email {
   width: 70%;
@@ -381,7 +402,7 @@ nav .nav-item :hover {
   color: #ddd;
 }
 .footer .form span i {
-  padding: 13px;
+  padding: 10px 13px;
   background: teal;
   color: #bbb;
 }
@@ -395,10 +416,15 @@ nav .nav-item :hover {
   right: 45px;
 }
 .move-up span {
-  color: teal;
+  color: #000;
 }
 .move-up span:hover {
-  color: #ddd;
+  color: blue;
   cursor: pointer;
 }
+.copyright p a{
+  color: #333 !important;
+  font-weight: bold;
+}
+
 /* =========  footer  ========= */

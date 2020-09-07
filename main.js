@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   /*-----------  Owl Carousel  ---------*/
   $(".owl-carousel").owlCarousel({
     loop: true,
@@ -21,11 +22,11 @@ $(document).ready(function () {
       },
     },
   });
-  /*-----------  Owl Carousel  ---------*/
+
 
   /*----------  Animate on scroll  -------*/
   AOS.init();
-  /*---------  Animate on scroll  --------*/
+
 
   /*---------  Scroll Up  -----------*/
   $(".move-up span").click(function () {
@@ -36,10 +37,9 @@ $(document).ready(function () {
       1000
     );
   });
-  /*-----------  Scroll Up  ------------*/
+
 
   /*----------------------------  Add smooth scrolling to all links  -------------------------*/
-
   $("a").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();
@@ -58,6 +58,6 @@ $(document).ready(function () {
       );
     }
   });
-  /*----------------------------  Add smooth scrolling to all links  -------------------------*/
+
   
 });
